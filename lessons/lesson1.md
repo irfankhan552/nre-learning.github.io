@@ -3,13 +3,13 @@ HERE IS SOME TEXT
 
 <div>
     <div style="float: left; width: 48%; height: 500px;">
-    <source src="https://i.imgur.com/iBX68J7.mp4" type="video/mp4" /></video><video style="float: right;" controls="controls" width="300" height="150">
+    <p><img src="https://i.imgur.com/1N834FF.jpg" alt="" width="100%" height="100%" /></p>
     </div>
     <div style="float: left; width: 48%; height: 500px; float: right;">
-    <source src="https://i.imgur.com/iBX68J7.mp4" type="video/mp4" /></video></p>
+    <p><img src="https://i.imgur.com/1N834FF.jpg" alt="" width="100%" height="100%" /></p>
     </div>
 </div>
 
-HERE IS SOME MORE TEXT
+HERE IS SOME MORE2 TEXT
 
 
