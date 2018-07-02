@@ -1,3 +1,7 @@
+---
+layout: lesson
+---
+
 
 HERE IS SOME TEXT
 
