@@ -6,11 +6,11 @@ WIP list of high-level NRE topics for diving into later. For now, the exercise i
 
 Python, automation tools (Ansible/StackStorm/Salt, etc)
 
-Autonomous workflows. Software gets its inputs from other software
+Autonomous workflows. Software gets its inputs from other software (see event driven)
 
 Everything is API-Driven. Not just network device APIs but also cloud service APIs, 
 
-Defining all of the above triggers, tests, workflows, configs, policies as code. Treat the code as the source of truth
+Defining all of the above triggers, tests, workflows, configs, telemetry, policies as code. Treat the code as the source of truth
 
 Workflows have to be:
 - End-to-end (campus, DC, WAN, etc)
@@ -23,7 +23,7 @@ Workflows have to be:
 - Service-Level Objectives (SLO): Y proportion of the time...
 - Service-Level Agreements (SLA): Or else Z.
 
-Metrics. Putting latency, bandwidth, etc as supporting metrics to SLI
+Metrics. Putting latency, bandwidth, reachability, etc as supporting metrics to SLI
 
 Knowing the applications and users of the network is 100% crucial. You cannot calculate SLI, or MTBF/MTTR from any other perspective.
 
@@ -34,6 +34,8 @@ Everything is measured, and everything is actionable. Either by humans, or by ma
 Understanding triggers from #2 and tying them to workflows in #1
 
 Building a culture of seeing a "new" issue, and creating autoremediation for it if possible.
+
+Aim is to never log into the device to remediate issues
 
 ### 4. Test-Driven Network Automation
 
@@ -48,7 +50,7 @@ Tests that make assertions about how the network is working, and integrating thi
 - Cloud Networking
 - Distributed systems and applications, and their deployment models
 
-Distributed applications and systems are becoming the new norm. NREs need to be extremely familiar with Layer 7.
+Distributed applications and systems are becoming the new norm. NREs need to be extremely familiar with Layer 7. Understanding that resources are ephemeral and move often.
 
 ### 6. Continuous X
 
